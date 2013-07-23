@@ -47,7 +47,11 @@ printf "%-45s %-48s %s\n" "date +%::z" "`date +"%::z"`" "+hh:mm:ss numeric time 
 printf "%-45s %-48s %s\n" "date +%:::z" "`date +"%:::z"`" "numeric  time  zone  with:  to necessary precision (e.g., -04, +05:30)"
 printf "%-45s %-48s %s\n" "date +%Z" "`date +"%Z"`" "alphabetic time zone abbreviation (e.g., EDT)"
 
+
+
+
 printf "\nComplex dates:\n"
 printf "%-45s %-48s %s\n" "date \"+%Y-%m-%d T %H:%M:%S.%N %z (%Z)\"" "`date "+%Y-%m-%d T %H:%M:%S.%N %z (%Z)"`" "Log line format"
 printf "%-45s %-48s %s\n" "date \"+[%Y-%m-%d T %H:%M:%S.%N %z (%Z)]\"" "`date "+[%Y-%m-%d T %H:%M:%S.%N %z (%Z)]"`" "Log line format with delimiters"
+printf "%-45s %-48s %s\n" "date \"+%Y-%m-%dT%H:%M:%S%z\"" "`date "+%Y-%m-%dT%H:%M:%S%z"`" "rfc 3339"
 
