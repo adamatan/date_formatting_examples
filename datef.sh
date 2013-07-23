@@ -49,3 +49,5 @@ printf "%-45s %-48s %s\n" "date +%Z" "`date +"%Z"`" "alphabetic time zone abbrev
 
 printf "\nComplex dates:\n"
 printf "%-45s %-48s %s\n" "date \"+%Y-%m-%d T %H:%M:%S.%N %z (%Z)\"" "`date "+%Y-%m-%d T %H:%M:%S.%N %z (%Z)"`" "Log line format"
+printf "%-45s %-48s %s\n" "date \"+[%Y-%m-%d T %H:%M:%S.%N %z (%Z)]\"" "`date "+[%Y-%m-%d T %H:%M:%S.%N %z (%Z)]"`" "Log line format with delimiters"
+
