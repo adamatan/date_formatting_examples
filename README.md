@@ -1,6 +1,8 @@
 Date formatting examples
 ========================
 
+![http://xkcd.com/1179/](http://imgs.xkcd.com/comics/iso_8601.png "XKCD 1179")
+
 Shows the man page for `date` using live examples.
 
 Instead of:
