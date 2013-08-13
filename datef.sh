@@ -107,5 +107,5 @@ printf "\nMy log line formats, based on RFC 3339 / ISO 8601 in UTC:\n"
 print_and_run_command "$DATE_COMMAND -u \"+[%Y-%m-%d %H:%M:%S.%N %z (%Z)]\"" 	"Log format, ISO 8601, [] delimited"
 
 printf "\nOther\n"
-print_and_run_command "$DATE_COMMAND \"+%Y-%m-%d %H:%M:%S,%N\" | cut -c -23"	"http://goo.gl/ZQlXs"
+print_and_run_command "$DATE_COMMAND \"+%Y-%m-%d %H:%M:%S,%N\" | cut -c -23"	"log4j ISO 8601 format. http://goo.gl/ZQlXs"
 echo
